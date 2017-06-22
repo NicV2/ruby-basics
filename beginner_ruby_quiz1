@@ -1,0 +1,27 @@
+1. x = 5
+2. string
+3. no
+4. YOLO
+5. Coolio
+6. Error
+7. Batwoman
+8. Miley
+9. rapper[0]
+10. rapper[0..2]
+11. rapper[-1]
+12. word[0]=m
+13. my_dawg = "DMX"
+14. Error
+15. cats
+16. 7
+17. 28
+18. 8
+19. 4
+20. 1
+21. 1.5
+22. I AM NOT SHOUTING
+23. nice.downcase
+24. together = first + second
+25. 5.to_s
+26. space between my and variable
+27. band = "Blink" + 182.to_s
