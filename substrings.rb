@@ -3,22 +3,23 @@ dictionary = ["below","down","go","going","horn","how","howdy","it","i",
 
 def substrings(word, dictionary)
 	input_array = word.downcase.split(/\W+/)
-	matches = []
+	matches_hash = Hash.new(0)
+
 	y = 0
 	while y < input_array.length
 		x =0
 		while x < dictionary.length
-			m = input_array[y].scan(dictionary[x])
-			if (m.length > 0) 
-	 			matches << m 
+			match = input_array[y].scan(dictionary[x])
+			if (match.length > 0) 
+	 			matches_hash[dictionary[x]] += 1
 	 		end
 			x = x +1
 		end
 		y = y + 1
 	end
 	
-  	matches_hash = Hash.new(0)
- 	matches.each{|key| matches_hash[key] += 1}
+  	
+ 	
 
  	puts matches_hash
 	
